@@ -144,17 +144,14 @@ body {
 .contacts-nav .item {
     display: flex;
     align-items: center;
+    fill: var(--primary-text-color);
 }
 
 .contacts-icon {
     margin-right: 10px;
-    fill: var(--primary-text-color);
 }
 
-.contacts-nav .link:hover, 
-.contacts-nav .link:focus .contacts-icon {
-    fill: var(--accent-color);
-}
+
 
 /* Hero */
 
