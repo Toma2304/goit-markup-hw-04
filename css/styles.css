@@ -16,6 +16,7 @@
     --primary-bg-color: #FFFFFF;
     --secondary-bg-color: #F5F4FA;
     --footer-bg-color: #2F303A;
+    --icon-color: #AFB1B8;
 }
 
 
@@ -332,7 +333,7 @@ body {
 .team-soc-link {
     width: 44px;
     height: 44px;
-    background-color: tomato;
+    background-color: var(--primary-bg-color);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -340,18 +341,17 @@ body {
 }
 
 .team-soc-icon {
-    fill: #000;
+    fill: var(--icon-color);
 }
 
-/* 
 
-.team-soc-link:hover {
-    background-color: teal;
+.team-soc-link:hover, .team-soc-link:focus {
+    background-color: var(--accent-color);
 }
 
-.team-soc-link:hover .team-soc-icon {
-    fill: tomato;
-} */
+.team-soc-link:hover, .team-soc-link:focus .team-soc-icon {
+    fill: var(--primary-bg-color);
+}
 
 /* Clients */
 
@@ -366,7 +366,7 @@ body {
     padding: 16px 32px;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--icon-color);
     display: flex;
     box-sizing: border-box;
     border-radius: 4px;
@@ -384,9 +384,17 @@ body {
 }
 
 .clients-icon {
-    fill: #afb1b8;
+    fill: var(--icon-color);
 }
 
+.clients-link:hover, .clients-link:focus {
+    border: 1px solid var(--accent-color);
+}
+
+.clients-link:hover, .clients-link:focus .clients-icon
+{
+    fill: var(--accent-color);
+}
 /* Footer */
 
 .footer {
