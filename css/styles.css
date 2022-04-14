@@ -134,7 +134,6 @@ body {
 .contacts-nav .link:hover, 
 .contacts-nav .link:focus {
     color: var(--accent-color);
-    /* fill: var(--accent-color); */
 }
 
 .site-nav .link.current {
@@ -144,12 +143,15 @@ body {
 .contacts-nav .item {
     display: flex;
     align-items: center;
-    color: var(--primary-text-color);
 }
 
 .contacts-icon {
     margin-right: 10px;
-    fill: currentColor;
+    fill: var(--primary-text-color);
+}
+.contacts-nav .link:hover, 
+.contacts-nav .link:focus .contacts-icon {
+    fill: var(--accent-color);
 }
 
 /* Hero */
