@@ -246,13 +246,25 @@ body {
     background-color: var(--secondary-bg-color);
     border-radius: 4px;
     margin-bottom: 30px;
-}
-
-.features-list .item:nth-child(1) {
-    background-image: url(../images/icons.svg#antenna);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+}
+
+.features-list .item:nth-child(1)::before {
+    background-image: url(../images/icons.svg#antenna);
+}
+
+.features-list .item:nth-child(2)::before {
+    background-image: url(../images/icons.svg#clock);
+}
+
+.features-list .item:nth-child(3)::before {
+    background-image: url(../images/icons.svg#diagram);
+}
+
+.features-list .item:nth-child(4)::before {
+    background-image: url(../images/icons.svg#astronaut);
 }
 
 .features-list .title {
