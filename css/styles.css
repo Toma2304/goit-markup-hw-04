@@ -130,6 +130,8 @@ body {
 .contacts-nav .link {
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    align-items: center;
 
     fill: var(--primary-text-color);
 }
@@ -144,9 +146,9 @@ body {
     color: var(--accent-color)
 
 }
-.contacts-nav .item {
-    display: flex;
-    align-items: center;
+
+.contacts-icon {
+    margin-right: 10px;
 }
 
 /* Hero */
