@@ -134,11 +134,16 @@ body {
 .contacts-nav .link:hover, 
 .contacts-nav .link:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .site-nav .link.current {
     color: var(--accent-color)
 
+}
+
+.contacts-nav .item {
+    fill: var(--primary-text-color);
 }
 
 /* Hero */
