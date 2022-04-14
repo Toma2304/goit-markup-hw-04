@@ -250,19 +250,19 @@ body {
     background-size: contain;
 }
 
-.features-list .item:nth-child(1)::before {
+.icon-antenna::before {
     background-image: url(../images/icons.svg#antenna);
 }
 
-.features-list .item:nth-child(2)::before {
+.icon-clock::before {
     background-image: url(../images/icons.svg#clock);
 }
 
-.features-list .item:nth-child(3)::before {
+.icon-diagram::before {
     background-image: url(../images/icons.svg#diagram);
 }
 
-.features-list .item:nth-child(4)::before {
+.icon-astronaut::before {
     background-image: url(../images/icons.svg#astronaut);
 }
 
