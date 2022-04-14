@@ -396,6 +396,7 @@ body {
 
     padding-top: 94px;
     padding-bottom: 94px;
+    
 }
 
 .clients-link {
@@ -411,6 +412,7 @@ body {
 
 .clients-list {
     margin-top: 50px;
+    padding-left: 0;
 
     display: flex;
     justify-content: center;
