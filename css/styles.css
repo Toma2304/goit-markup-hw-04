@@ -338,20 +338,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.team-soc-icon {
     fill: var(--icon-color);
 }
 
 
 .team-soc-link:hover, .team-soc-link:focus {
     background-color: var(--accent-color);
-}
-
-.team-soc-link:hover, .team-soc-link:focus .team-soc-icon {
     fill: var(--primary-bg-color);
 }
+
 
 /* Clients */
 
@@ -370,6 +365,7 @@ body {
     display: flex;
     box-sizing: border-box;
     border-radius: 4px;
+    fill: var(--icon-color);
 }
 
 .clients-list {
@@ -383,18 +379,12 @@ body {
     margin-right: 30px;
 }
 
-.clients-icon {
-    fill: var(--icon-color);
-}
 
 .clients-link:hover, .clients-link:focus {
     border: 1px solid var(--accent-color);
-}
-
-.clients-link:hover, .clients-link:focus .clients-icon
-{
     fill: var(--accent-color);
 }
+
 /* Footer */
 
 .footer {
