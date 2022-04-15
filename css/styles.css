@@ -153,6 +153,8 @@ body {
 /* Hero */
 
 .hero {
+    margin: 0 auto;
+
     background-color: var(--footer-bg-color);
 
     background-image: 
